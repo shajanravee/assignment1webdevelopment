@@ -1,0 +1,69 @@
+header {
+    background-color: darkgray;
+    padding: 20px;
+}
+
+img {
+     border-style: none;
+     margin: 0 auto;
+     display: block;
+}
+
+body {
+    background-image: url(back.jpg);
+    background-size: cover;
+
+}
+h1 { 
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    color: black;
+ } 
+
+p {
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+}
+/* I GOT THIS SOME OF THIS CODE FROM YOUTUBE VIDEO BY
+ KEVIN POWELL OCTOBER 2016 "How to create an awesome navigation bar with HTML & CSS"*/
+nav {
+      display: flex;
+      letter-spacing: 1px;
+      font-size: 20px;
+      float:none;
+      font-family: 'Fjalla One', sans-serif;
+}
+
+nav ul {
+        margin:  0%;
+        padding: 0%;
+        list-style: none; 
+        padding-bottom: 30px;
+               
+}
+
+nav li { 
+        display: inline-block;
+        margin-left: 10px;
+        padding-top: 30px;      
+}
+
+nav a {
+    color: black
+}
+/* I HAVE GOT SOME OF THIS CODE FROM YOUTUBE DARKCODE
+Responsive Contact Us Form Using Only HTML & CSS 27TH JUNE 2018 */
+.contact-form{
+    background-color: blanchedalmond;
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+}
+
+.main_container_left{
+    max-width: 50px;
+    float: left;
+}
+
+.main_container_right{
+    max-width: 50px;
+}
